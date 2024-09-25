@@ -44,9 +44,9 @@ class CustomListView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-      height: 400.0,
+      height: 250.0,
       child: ListView.builder(
-        itemCount: 5,
+        itemCount: 3,
         itemBuilder: (context, index) {
           return Card(
             child: ListTile(
